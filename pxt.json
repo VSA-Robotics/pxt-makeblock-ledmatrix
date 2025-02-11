@@ -1,0 +1,16 @@
+{
+    "name": "Makeblock LED Matrix",
+    "description": "MakeCode extension to initialize and control the Makeblock LED Matrix directly.",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "main.ts",
+        "README.md"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
