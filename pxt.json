@@ -1,16 +1,11 @@
 {
-    "name": "Makeblock LED Matrix",
-    "description": "MakeCode extension to initialize and control the Makeblock LED Matrix directly.",
-    "license": "MIT",
+    "name": "LED Matrix",
+    "description": "Extension for controlling Makeblock LED Matrix 8×16 via I2C",
     "dependencies": {
         "core": "*"
     },
     "files": [
-        "main.ts",
-        "README.md"
+        "main.ts"
     ],
-    "supportedTargets": [
-        "microbit"
-    ],
-    "preferredEditor": "tsprj"
+    "supportedTargets": ["microbit"]
 }
